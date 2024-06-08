@@ -35,9 +35,9 @@ function App() {
             <Button>
               {network
                 ? network === CHAIN.MAINNET
-                  ? "mainnet"
+                  ? "mываываываainnet"
                   : "testnet"
-                : "N/A"}
+                : "N/Aытылпоыпо"}
             </Button>
           </FlexBoxRow>
           <Jetton />

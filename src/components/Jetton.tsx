@@ -16,7 +16,7 @@ export function Jetton() {
   return (
     <Card title="Jetton">
       <FlexBoxCol>
-        <h3>Jetton</h3>
+        <h3>Jettoываывавыаываn</h3>
         <FlexBoxRow>
           Wallet
           <Ellipsis>{ wallet ? Address.parse(wallet as string).toString() : "Loading..."}</Ellipsis>
