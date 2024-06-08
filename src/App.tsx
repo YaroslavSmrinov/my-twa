@@ -45,7 +45,7 @@ function App() {
         <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
           <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://png.klev.club/uploads/posts/2024-04/thumbs/png-klev-club-venn-p-yevrei-png-22.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajaYoMhslxwehHM2xDU3MzYVAVxqVm9OF5w&s"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
@@ -54,7 +54,7 @@ function App() {
 
           <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-uuay-p-yevrei-png-6.png"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Feels_good_man.jpg/200px-Feels_good_man.jpg"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
@@ -63,7 +63,7 @@ function App() {
 
           <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqiRUyLl7u7o-zDXvsfeiFO-zyCkODeiNLKqzvUrMIBX6vH4K3HQVyow-GpAylUZCH0Jc&usqp=CAU"
+              src="https://png.pngitem.com/pimgs/s/14-148125_pepe-png-pepe-pride-suicide-pepe-transparent-png.png"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
