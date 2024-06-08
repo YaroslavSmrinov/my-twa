@@ -13,7 +13,7 @@ export function useTonConnect(): {
     // с помощью useTonConnectUI мы отправляем наши транзакции
     const [tonConnectUI] = useTonConnectUI()
     // useTonWallet нужен чтоб достать адрес кошелька пользователя
-    const wallet = useTonWallet()
+    const wallet = useTonWallet();
 
     return {
         sender: {
@@ -22,6 +22,7 @@ export function useTonConnect(): {
                 messages: [
                   {
                     address: args.to.toString(), // адрес контракта, на который мы отправляем сообщение
+                    // address: 'UQA8Z_fZEGCLtBW3w7uJFEO5LlTeSIC12cE_L60zD-haqFd4',
                     amount: args.value.toString(), // сумма
                     payload: args.body?.toBoc().toString("base64"), // тело сообщения. Представляется в формате ячейки.
                   },

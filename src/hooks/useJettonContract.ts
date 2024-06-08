@@ -47,10 +47,11 @@ export function useJettonContract() {
         getBalance()
 
     }, [jettonWalletContract]) // зависимости
-
+    
     return {
         // Используем адрес контракта для минта.
         jettonWalletAddress: jettonWalletContract?.address.toString(),
+        //jettonWalletAddress: "UQA8Z_fZEGCLtBW3w7uJFEO5LlTeSIC12cE_L60zD-haqFd4",
         balance: balance,
         mint: () => {
             const message: Mint = {
