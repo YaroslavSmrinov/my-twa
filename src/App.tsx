@@ -24,14 +24,14 @@ const AppContainer = styled.div`
 `;
 
 function App() {
-  const {network} = useTonConnect()
+  const { network } = useTonConnect();
 
   return (
     <StyledApp>
       <AppContainer>
         <FlexBoxCol>
           <FlexBoxRow>
-            <TonConnectButton/>
+            <TonConnectButton />
             <Button>
               {network
                 ? network === CHAIN.MAINNET
@@ -43,27 +43,27 @@ function App() {
           <Jetton />
         </FlexBoxCol>
         <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
-          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '150px' }}>
+          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaJ_6vZElFYsaqXoiE3zG4sqXkN5uS_j5ng&s"
+              src="https://png.klev.club/uploads/posts/2024-04/thumbs/png-klev-club-venn-p-yevrei-png-22.png"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
             <span>Проверить дроп</span>
           </button>
 
-          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '150px' }}>
+          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-mzgd-p-gachimuchi-png-1.png"
+              src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-uuay-p-yevrei-png-6.png"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
             <span>Найден дроп</span>
           </button>
 
-          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '150px' }}>
+          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '30%' }}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyViuuMdOOytP9Z6iIE4zko-fDkSiMRPcjsQ&s"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqiRUyLl7u7o-zDXvsfeiFO-zyCkODeiNLKqzvUrMIBX6vH4K3HQVyow-GpAylUZCH0Jc&usqp=CAU"
               alt="Icon 1"
               style={{ width: '100%', height: 'auto' }}
             />
@@ -75,4 +75,6 @@ function App() {
   );
 }
 
+
 export default App;
+// git add . && git commit -m 'add memes' && git push && yarn build && yarn deploy
