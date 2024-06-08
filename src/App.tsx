@@ -7,7 +7,7 @@ import { useTonConnect } from "./hooks/useTonConnect";
 import "@twa-dev/sdk"
 
 const StyledApp = styled.div`
-  background-color: black;
+  background-color: white;
   color: black; // color foor text
 
   @media (prefers-color-scheme: dark) {
@@ -42,6 +42,33 @@ function App() {
           </FlexBoxRow>
           <Jetton />
         </FlexBoxCol>
+        <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+
+        <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaJ_6vZElFYsaqXoiE3zG4sqXkN5uS_j5ng&s" 
+              alt="Icon 1" 
+              style={{ width: '150px', height: '80px' }} 
+              />
+              <span>Проверить дроп</span>
+          </button>
+
+          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <img 
+              src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-mzgd-p-gachimuchi-png-1.png" 
+              alt="Icon 1" 
+              style={{ width: '150px', height: '80px' }} />
+              <span>Найден дроп</span>
+          </button>
+
+          <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyViuuMdOOytP9Z6iIE4zko-fDkSiMRPcjsQ&s" 
+              alt="Icon 1" 
+              style={{ width: '150px', height: '80px' }} />
+               <span>Нажал "Claim"</span>
+          </button>
+        </div>
       </AppContainer>
     </StyledApp>
   );
