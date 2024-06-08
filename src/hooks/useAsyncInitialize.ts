@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+
+// Хук для инициализации контракта.
 export function useAsyncInitialize<T>(func: ()=> Promise<T>, deps: any[] = []) {
     const [state, setState] = useState<T | undefined>();
     useEffect(()=>{

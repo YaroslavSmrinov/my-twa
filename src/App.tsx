@@ -7,8 +7,8 @@ import { useTonConnect } from "./hooks/useTonConnect";
 import "@twa-dev/sdk"
 
 const StyledApp = styled.div`
-  background-color: #e8e8e8;
-  color: black;
+  background-color: black;
+  color: black; // color foor text
 
   @media (prefers-color-scheme: dark) {
     background-color: #222;
@@ -35,9 +35,9 @@ function App() {
             <Button>
               {network
                 ? network === CHAIN.MAINNET
-                  ? "mываываываainnet"
+                  ? "minnet"
                   : "testnet"
-                : "N/Aытылпоыпо"}
+                : "N/A (сеть не определена"}
             </Button>
           </FlexBoxRow>
           <Jetton />
