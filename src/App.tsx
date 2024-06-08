@@ -42,7 +42,7 @@ function App() {
           </FlexBoxRow>
           <Jetton />
         </FlexBoxCol>
-        <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
           <button style={{ background: 'none', border: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '150px' }}>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaJ_6vZElFYsaqXoiE3zG4sqXkN5uS_j5ng&s"
