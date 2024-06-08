@@ -31,7 +31,7 @@ export function useTonConnect(): {
               });
             },
             address: wallet?.account?.address ? Address.parse(wallet?.account?.address as string) : undefined 
-            // адрес, который мы достали с помощью useTonWallet
+            // адрес, который мы достали с помощью useTonWallet dsgsdgsdgsdg
           }, 
 
         connected: !!wallet?.account.address,  // подключен ли кошель. Тру если в wallet имеет account.address
