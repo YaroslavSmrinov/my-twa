@@ -68,6 +68,7 @@ function App() {
               style={{ width: '100%', height: 'auto' }}
             />
             <span>Нажал "Claim"</span>
+            
           </button>
         </div>
       </AppContainer>

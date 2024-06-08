@@ -12,7 +12,7 @@ export function useTonConnect(): {
 } {
     // с помощью useTonConnectUI мы отправляем наши транзакции
     const [tonConnectUI] = useTonConnectUI()
-    // useTonWallet нужен чтоб достать адрес кошелька пользователя
+    // useTonWallet нужен чтоб достать адрес кошелька пользователя    dfsffsdff
     const wallet = useTonWallet();
 
     return {
